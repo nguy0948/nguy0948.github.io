@@ -4,29 +4,34 @@
 <head>
     <meta charset="UTF-8">
     <title>Reggie's Coffee Shop - Home</title>
+    <link rel="stylesheet" href="css/main.css"> 
 </head>
 
 <body>
-<!-- This is an HTML comment -->
+
+    <!-- This is an HTML comment -->
 <!-- h1 is the most important heading we can use 6 levels of heading from h1 to h6 -->
 <!-- site Header-->
 <header>
     <h1>Reggie's Coffee Shop</h1>
 <nav>
     <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="current">Home</a></li>
         <li><a href="contact.html">Contact Us</a></li>
     </ul>
 </nav>
 </header>
+
 <!-- Starting main content of the page -->
 <main>
     <!-- Adding an on page link-->
-    <a href="#treatofweak">Treat of the weak</a>
+    <a href="#treatofweek" class="orange-link">Treat of the week</a>
 
+    
     <!-- article of the page, can be used stand-alone -->
     <article>
         <h2>Our Story </h2>
+
         <!-- Adding an image --> 
         <img src="images/coffee-shop.jpg" alt="coffee cup on pile of coffee beans">
         <p>
@@ -34,7 +39,7 @@
             shop. Maria is the pastry chef and is in-charge of the bake shop. 
             Celebrating their 10<sup>th</sup> aniversary together in December 2021.
         </p>
-        <blockquote>
+        <blockquote class="large-text">
             We love coffee <cite>- Reggie and Maria</cite>
         </blockquote>
         <hr>
@@ -48,6 +53,7 @@
      </article>
      <aside>
          <h3>Merchandise</h3>
+
          <!-- command + / to add a comment -->
          <!-- Adding an unodered list -->
          <ul>
@@ -56,6 +62,7 @@
              <li>Hoodies</li>
          </ul>
      </aside>
+
      <!-- Adding section for ordered list -->
      <section>
          <h3>Event</h3>
@@ -65,7 +72,7 @@
          </ol>
      </section>
      <!-- Adding section for description list -->
-     <section id="treatofweak">
+     <section id="treatofweek">
          <h3>Treat of the Week</h3>
          <dl>
              <dt>Name</dt>
@@ -87,15 +94,17 @@
                  </ul>
              </dd>
          </dl>
+
          <!-- Adding an external link -->
-         <a href="https://www.yummly.com/recipe/Banana-Bread-1033797?prm-v1" target="_blank">
+         <a href="https://www.yummly.com/recipe/Banana-Bread-1033797?prm-v1" target="_blank" class="orange-link large-text">
             Get the Recipe
          </a>
      </section>
+
      <!-- Adding section for the menu table -->
      <section>
          <h3>Menu Specials</h3>
-         <table border>
+         <table>
             <thead> 
                 <tr>
                     <th colspan="2">Items</th>
@@ -121,6 +130,7 @@
          </table>
      </section>
 </main>
+
 <!-- Site Footer -->
 <footer>
     Copyright &copy; Reggie's Coffee Shop, 2021
