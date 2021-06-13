@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header,
+footer{
+    background-color: crimson;
+}
+
+img[src$=".jpeg"]{
+    box-shadow: 0 0 2px 1px black;
+}
+
+aside ul{
+    list-style: square;
+}
+
+aside li:nth-child(odd){
+    background-color: cadetblue;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul .current{
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+nav ul .current,
+nav ul a:hover,
+nav ul a:focus {
+    background-color: orange;
+}
