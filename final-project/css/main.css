@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 90vw;
+    margin: 0 auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.logo-search{
+    background-color:  #222;
+    text-decoration: none;
+    text-align: center;
+    color: #c78c06;
+    padding: 20px;
+}
+
+#logo {
+    text-align: left;
+    
+}
+
+.connect {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border: 1px solid #c78c06;
+    background-color:#c78c06 ;
+    padding: 40px;
+}
+
+#search {
+    width: 95%;
+}
+
+#home {
+    background-image: url(../images/main-banner.jpg);
+    display: flex;
+    width: 100%;
+    height: 150vh;
+}
+
+h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.home-info {
+    position: relative;
+    margin: auto;
+    padding: 10px;
+    padding-top: 30px;
+    top: 0;
+    bottom: 20%;
+    color: white;
+    font-size: 20px;
+    border: 0.5px solid rgba(0, 0, 0, 0.267);
+    background-color:rgba(0, 0, 0, 0.534) ;
+}
+
+#aboutus{
+    background-color: #ffe6ac;
+    margin: 0 auto;
+    padding: 10px;
+
+}
+
+.us-img {
+    width: 100%;
+}
+
+h2{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 25px;
+}
+
+h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+  display: inline-block;
+  color: white;
+  border: 1px solid #222;
+  padding: 40px;
+  background-color: black;
+}
+
+.learn {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  border: 1px solid #c78c06 ;
+  padding: 40px;
+  
+}
+
+.images {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.digital {
+    background-color: #ffe6ac;
+    margin: 0;
+    padding: 10px;
+}
+
+.marketing {
+    background-color: #ffe6ac;
+    margin: 0;
+    padding: 10px;
+}
+
+.video {
+    background-color: #ffe6ac;
+    margin: 0;
+    padding: 10px;
+}
+
+.web {
+    background-color: #ffe6ac;
+    margin: 0 ;
+    padding: 10px;
+}
+
+.print {
+    background-color: #ffe6ac;
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.vision {
+    background-image: url(../images/vision.jpg);
+    color: white;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    margin-top: 20px ;
+    margin-bottom: 20px;
+}
+
+.vision-info {
+    padding-left: 10px;
+}
+
+.team-john {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.img-john {
+    width: 100%;
+    margin-top: 20px;
+}
+
+
+.team-bob {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.img-bob {
+    width: 100%;
+    margin-top: 20px;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.para {
+    border-top: 2px solid #c78c06;
+}
+
+div input,textarea {
+    width: 100%;
+}
+
+.message {
+    box-sizing: border-box;
+}
+
+.submit {
+    background-color: #222;
+    color: #c78c06;
+    padding: 5px;
+}
